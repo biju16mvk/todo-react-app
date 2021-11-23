@@ -13,7 +13,7 @@ const ToDoInput = props => {
       setEnteredValue(event.target.value);
     }
   };
-
+ 
   const formSubmitHandler = event => {
     event.preventDefault();
     if (!enteredValue.trim().length) {
